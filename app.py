@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 import google.generativeai as genai
-import cohere
 from dotenv import load_dotenv
 import os
 import json
@@ -22,7 +21,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load environment variables
-load_dotenv(r"C:\Users\nishc\Desktop\Projects\Python\.env")
+path = os.path.join(os.path.dirname(__file__), ".env")
+load_dotenv(path)
 genai.configure(api_key=os.getenv("MATH_API"))
 
 
