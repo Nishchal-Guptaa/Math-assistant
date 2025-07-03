@@ -192,3 +192,7 @@ The assistant:
 
 Is there anything else you'd like me to help you with? 😊
 Feel free to raise an issue or start a discussion!
+
+### View Documentation
+
+View the documentation provided [https://emerald-lint-42b.notion.site/Math-AI-Assistant-Documentation-22588697fbea8055939ef8c9243b6ed6](Here).
